@@ -1,6 +1,7 @@
 import Greet from "./Components/Greet";
 import { Person } from "./Components/Person";
 import PersonList from "./Components/PersonList";
+import UnionType from "./Components/UnionType";
 
 function App() {
   const fullnames = {
@@ -17,10 +18,11 @@ function App() {
   return (
     <>
       <div>
-        <Greet name="Hricheak" massage={10} islogedin={false} />
+        {/* <Greet name="Hricheak" massage={10} islogedin={false} />
         <Person fullname={fullnames} />
 
-        <PersonList names={NameList} />
+        <PersonList names={NameList} /> */}
+        <UnionType status="succesful" />
       </div>
     </>
   );
