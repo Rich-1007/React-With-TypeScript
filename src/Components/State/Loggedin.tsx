@@ -7,7 +7,7 @@ const Loggedin = () => {
     setIslogedin(true);
   };
   const HandleLogOut = () => {
-    setIslogedin(false); 
+    setIslogedin(false);
   };
 
   return (
