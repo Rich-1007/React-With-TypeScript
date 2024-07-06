@@ -1,4 +1,5 @@
 import Button from "./Components/Button";
+import Container from "./Components/Container";
 import Greet from "./Components/Greet";
 import { Person } from "./Components/Person";
 import PersonList from "./Components/PersonList";
@@ -27,11 +28,13 @@ function App() {
         {/* <UnionType status="succesful" /> */}
         {/* <ReactNodeType><div>hjtyjhh</div></ReactNodeType> */}
 
-        <Button
+        {/* <Button
           handleClick={() => {
             console.log("Button Clicked");
           }}
-        />
+        /> */}
+
+        <Container style={{ border: "3px solid orange" }} />
       </div>
     </>
   );
