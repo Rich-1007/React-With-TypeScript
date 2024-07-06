@@ -4,6 +4,7 @@ import Greet from "./Components/Greet";
 import { Person } from "./Components/Person";
 import PersonList from "./Components/PersonList";
 import ReactNodeType from "./Components/ReactNodeType";
+import Loggedin from "./Components/State/Loggedin";
 import UnionType from "./Components/UnionType";
 
 function App() {
@@ -34,7 +35,9 @@ function App() {
           }}
         /> */}
 
-        <Container style={{ border: "3px solid orange" }} />
+        {/* <Container style={{ border: "3px solid orange" }} /> */}
+
+        <Loggedin />
       </div>
     </>
   );
